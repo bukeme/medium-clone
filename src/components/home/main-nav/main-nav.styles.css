@@ -64,7 +64,7 @@
 	margin-right: 30px;
 }
 
-.main-nav__slider--item:hover {
+.main-nav__slider--item span:hover {
 	color: var(--dark-black);
 }
 
