@@ -1,0 +1,66 @@
+.adjust-width {
+	width: 680px;
+	margin: 0 auto;
+}
+
+.blog-post-header__title {
+	font-size: 38px;
+}
+
+.blog-post-header__author {
+	margin: 25px 0;
+	display: flex;
+	align-items: center;
+}
+
+.blog-post-header__author--img-container,
+.blog-post-header__author--img,
+.blog-post-header__author--overlay {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+}
+
+.blog-post-header__author--img-container {
+	margin-right: 15px;
+}
+
+.blog-post-header__author--overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .1);
+	opacity: 0;
+}
+
+.blog-post-header__author--img-container:hover .blog-post-header__author--overlay {
+	opacity: 1;
+}
+
+.blog-post-header__author--text__name {
+	color: var(--dark-black);
+	font-size: 15px;
+}
+
+.blog-post-header__author--text__name--follow {
+	display: flex;
+	align-items: center;
+}
+
+.article__author--dot {
+	width: 2px;
+	height: 2px;
+	background-color: var(--dark-black);
+	margin: 0 5px;
+}
+
+.blog-post-header__author--text__follow {
+	color: var(--green);
+}
+
+.blog-post-header__author--text__date {
+	color: var(--black);
+	font-size: 14px;
+}

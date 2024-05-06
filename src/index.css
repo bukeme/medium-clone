@@ -9,8 +9,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
 }
 
 body {
   color: rgb(0, 0, 0, .8);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--dark-black);
 }

@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import {Link} from 'react-router-dom';
 import Logo from '../../assets/logo.svg?react';
 import NotificationIcon from '../../assets/notification-icon.svg?react';
 import SearchIcon from '../../assets/search-icon.svg?react';
@@ -15,7 +16,9 @@ const Nav = () => {
 		<>
 			<div className='nav'>
 				<div className='nav__left'>
-					<Logo className='logo' />
+					<Link to='/'>
+						<Logo className='logo' />
+					</Link>
 					<div className='nav__left--input'>
 						<input type='text' placeholder='Search' />
 						<SearchIcon className='nav__left--input__search-icon' />
