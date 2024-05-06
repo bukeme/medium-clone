@@ -1,0 +1,21 @@
+.recently-saved {
+	margin-top: 30px;
+}
+
+.recently-saved__posts-container {
+	margin: 15px 0;
+}
+
+.recently-saved__post {
+	margin-bottom: 15px;
+}
+
+.recently-saved__post--title {
+	font-size: 15px;
+	margin-bottom: 4px;
+}
+
+.recently-saved__post--date {
+	font-size: 13px;
+	color: var(--black);
+}
