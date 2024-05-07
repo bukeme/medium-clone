@@ -3,22 +3,6 @@
 	font-size: 16px;
 }
 
-.recommended-topics__topics-container {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 15px 0;
-}
-
-.recommended-topics__topic {
-	font-size: 13px;
-	padding: 10px 15px;
-	margin-bottom: 10px;
-}
-
-.recommended-topics__topic:not(.recommended-topics__topic:last-child) {
-	margin-right: 10px;
-}
-
 .recommended-topics__see-more {
 	font-size: 13px;
 	color: var(--green);

@@ -1,8 +1,14 @@
+import Topics from '../../home/topics/topics.component';
+import BlogPostEngagementSummary from '../blog-post-engagement-summary/blog-post-engagement-summary.component';
 import './blog-post-content.styles.css';
 
 
 
 const BlogPostContent = () => {
+	const topics = [
+		'Django', 'Django Commands', 'Google',
+		'Medium', 'Python'
+	]
 	return (
 		<div className='blog-post-content'>
 			<div className='adjust-width'>
@@ -23,6 +29,10 @@ const BlogPostContent = () => {
 					<p>Sed etiam finibus nullam eget accumsan pulvinar est. Duis varius lorem nisi nisi potenti rhoncus potenti nisi urna arcu dapibus scelerisque rhoncus potenti. Justo donec ullamcorper habitant consequat metus pulvinar senectus convallis ornare taciti. Nulla ex habitasse gravida consequat elementum elit.</p>
 					<p>Aptent fringilla imperdiet lectus etiam habitasse velit a orci nostra primis dignissim venenatis orci. Congue ex elit pharetra velit massa.</p>
 					<p>Luctus tortor adipiscing velit vehicula netus nibh varius tempus lectus nostra felis tempus. Ante scelerisque etiam in commodo velit id egestas. Nunc enim per nostra nisi netus turpis habitasse cubilia imperdiet. Vel cras nostra eget sapien torquent phasellus accumsan.</p>
+				</div>
+				<Topics topics={topics} />
+				<div className='blog-post-content__engagement-summary'>
+					<BlogPostEngagementSummary />
 				</div>
 			</div>
 		</div>

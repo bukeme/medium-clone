@@ -1,0 +1,15 @@
+.topics {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px 0;
+}
+
+.topics__topic {
+	font-size: 13px;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+}
+
+.topics__topic:not(.topics__topic:last-child) {
+	margin-right: 10px;
+}

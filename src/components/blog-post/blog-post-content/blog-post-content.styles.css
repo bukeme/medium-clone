@@ -1,5 +1,9 @@
 .blog-post-content {
-	margin-top: 40px;
+	margin: 40px 0;
+}
+
+.blog-post-content__article {
+	margin-bottom: 50px;
 }
 
 .blog-post-content__article img,
@@ -10,4 +14,8 @@
 
 .blog-post-content__article p {
 	color: var(--dark-black);
+}
+
+.blog-post-content__engagement-summary {
+	margin: 40px 0;
 }
