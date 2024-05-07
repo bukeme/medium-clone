@@ -1,0 +1,13 @@
+.blog-post-content {
+	margin-top: 40px;
+}
+
+.blog-post-content__article img,
+.blog-post-content__article p {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.blog-post-content__article p {
+	color: var(--dark-black);
+}

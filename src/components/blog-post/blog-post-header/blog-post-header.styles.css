@@ -42,6 +42,7 @@
 .blog-post-header__author--text__name {
 	color: var(--dark-black);
 	font-size: 15px;
+	position: relative;
 }
 
 .blog-post-header__author--text__name--follow {
@@ -63,4 +64,15 @@
 .blog-post-header__author--text__date {
 	color: var(--black);
 	font-size: 14px;
+}
+
+.blog-post-header__author--img-container:hover .blog-post-header-dropdown,
+.blog-post-header__author--text__name:hover .blog-post-header-dropdown {
+	display: block;
+}
+
+.blog-post-header__engagement-container {
+	border-top: 1px solid rgb(0, 0, 0, .08);
+	border-bottom: 1px solid rgb(0, 0, 0, .08);
+	padding: 15px 4px;
 }

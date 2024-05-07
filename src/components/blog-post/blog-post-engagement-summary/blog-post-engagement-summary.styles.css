@@ -1,0 +1,29 @@
+.blog-post-engagement-summary {
+	display: flex;
+	align-items: center;
+	color: var(--black);
+	font-size: 13px;
+}
+
+.blog-post-engagement-summary__item.summary-1 {
+	margin-right: 20px;
+}
+
+.blog-post-engagement-summary__item.summary-2 {
+	margin-right: auto;
+}
+
+.blog-post-engagement-summary__item {
+	display: flex;
+	align-items: center;
+}
+
+.blog-post-engagement-summary__item--text {
+	margin-left: 5px;
+}
+
+.blog-post-engagement-summary__item--icon:hover,
+.blog-post-engagement-summary__item--text:hover,
+.blog-post-engagement-summary__item.summary-2:hover {
+	color: var(--dark-black);
+}
