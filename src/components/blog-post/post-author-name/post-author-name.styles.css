@@ -1,0 +1,8 @@
+.post-author-name {
+	color: var(--dark-black);
+	position: relative;
+}
+
+.post-author-name:hover .blog-post-header-dropdown {
+	display: block;
+}

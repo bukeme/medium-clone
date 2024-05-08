@@ -1,0 +1,28 @@
+.post-profile-image {
+	border-radius: 50%;
+	position: relative;
+}
+
+.post-profile-image__img,
+.post-profile-image__overlay {
+	width: inherit;
+	height: inherit;
+	border-radius: inherit;
+	cursor: pointer;
+}
+
+.post-profile-image__overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .1);
+	opacity: 0;
+}
+
+.post-profile-image:hover .post-profile-image__overlay {
+	opacity: 1;
+}
+
+.post-profile-image:hover .blog-post-header-dropdown {
+	display: block;
+}
