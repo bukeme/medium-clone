@@ -20,6 +20,17 @@ const BlogPostAuthorSection = () => {
 				<div className='blog-post-author-section__author-posts'>
 					<h4 className='blog-post-author-section__author-posts--header'>More from Gajanan Rajput</h4>
 					<PostsGrid />
+					<hr className='blog-post-author-section__author-posts--line' />
+					<button className='blog-post-author-section__author-posts--see-all'>See all from Gajanan Rajput</button> 
+				</div>
+			</div>
+			<hr className='blog-post-author-section__author-posts--line author-posts-underline' />
+			<div className='adjust-width'>
+				<div className='blog-post-author-section__recommendations'>
+					<h4 className='blog-post-author-section__author-posts--header recommendations-header'>Recommended from Medium</h4>
+					<PostsGrid />
+					<hr className='blog-post-author-section__author-posts--line' />
+					<button className='blog-post-author-section__author-posts--see-all'>See more recommendations</button> 
 				</div>
 			</div>
 		</div>
