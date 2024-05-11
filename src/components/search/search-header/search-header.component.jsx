@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import './search-header.styles.css';
 
 
@@ -8,10 +9,14 @@ const SearchHeader = () => {
 			<h1 className='search-header__title'><span>Results for</span> django middleware</h1>
 			<div className='search-header__nav'>
 				<div className='search-header__nav--item active'>
-					<span>Stories</span>
+					<span>
+						<Link to='/search/posts'>Stories</Link>
+					</span>
 				</div>
 				<div className='search-header__nav--item'>
-					<span>People</span>
+					<span>
+						<Link to='/search/users'>People</Link>
+					</span>
 				</div>
 				<div className='search-header__nav--item'>
 					<span>Topics</span>

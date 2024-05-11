@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/:username/:postSlug' element={<BlogPost />} />
-          <Route path='/search' element={<Search />} />
+          <Route path='/search/*' element={<Search />} />
         </Routes>
       </BrowserRouter>
     </>

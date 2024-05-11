@@ -1,0 +1,38 @@
+.search-item__author {
+	display: flex;
+	align-items: center;
+}
+
+.search-item__author--img {
+	margin-right: 10px;
+}
+
+.search-item__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.search-item__content--text {
+	width: 70%;
+}
+
+.search-item__content--img {
+	width: 20%;
+	object-fit: cover;
+	min-height: 150px;
+}
+
+.search-item__author {
+	margin-bottom: 17px;
+}
+
+.search-item__content--text__para,
+.search-item__content--text__date {
+	color: var(--black);
+}
+
+.search-item__content--text__date {
+	font-size: 13px;
+	margin: 25px 0;
+}
