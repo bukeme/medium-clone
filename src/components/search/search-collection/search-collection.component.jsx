@@ -1,7 +1,7 @@
 import {useLocation} from 'react-router-dom';
 import SearchItem from '../search-item/search-item.component';
 import SearchUsersItem from '../search-users-item/search-users-item.component';
-import ArrowDownIcon from '../../../assets/arrow-down.svg?react';
+import SearchShowMore from '../search-show-more/search-show-more.component';
 import './search-collection.styles.css';
 
 
@@ -20,12 +20,7 @@ const SearchCollection = () => {
 	return (
 		<div className='search-collection'>
 			{elements}
-			<div className='search-collection__show-more-container'>
-				<div className='search-collection__show-more-text'>
-					<span>Show more</span>
-					<ArrowDownIcon className='icon' />
-				</div>
-			</div>
+			<SearchShowMore />
 		</div>
 	);
 }

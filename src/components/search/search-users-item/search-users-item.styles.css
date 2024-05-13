@@ -1,0 +1,30 @@
+.search-users-item {
+	display: flex;
+	align-items: center;
+}
+
+.search-users-item__img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.search-users-item__user {
+	margin: 0 auto 0 40px;
+	width: 70%;
+}
+
+.search-users-item__user--name {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.search-users-item__user--overview {
+	color: var(--black);
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	overflow: hidden !important;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+}
