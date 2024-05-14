@@ -53,6 +53,10 @@
 	display: none;
 }
 
+.nav__right--write a {
+	color: var(--black);
+}
+
 .nav__right--write,
 .nav__right--notification-icon,
 .nav__right--search-icon.mobile {
@@ -60,6 +64,7 @@
 }
 
 .nav__right--write:hover,
+.nav__right--write a:hover,
 .nav__right--notification-icon:hover,
 .nav__right--search-icon.mobile:hover {
 	color: var(--dark-black);

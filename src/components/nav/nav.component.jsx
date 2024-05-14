@@ -1,17 +1,14 @@
-import {useState} from 'react';
 import {Link} from 'react-router-dom';
 import Logo from '../../assets/logo.svg?react';
 import NotificationIcon from '../../assets/notification-icon.svg?react';
 import SearchIcon from '../../assets/search-icon.svg?react';
 import WriteIcon from '../../assets/write-icon.svg?react';
-import placeholderImage from '../../assets/placeholder.jpg';
-import NavDropdown from '../nav-dropdown/nav-dropdown.component';
+import NavMenu from '../nav-menu/nav-menu.component';
 import './nav.styles.css';
 
 
 
 const Nav = () => {
-	const [showDropdown, setShowDropdown] = useState(false);
 	return (
 		<>
 			<div className='nav'>
@@ -28,17 +25,10 @@ const Nav = () => {
 					<SearchIcon className='nav__right--search-icon mobile' />
 					<div className='nav__right--write mobile'>
 						<WriteIcon className='write-icon' />
-						<span>Write</span>
+						<Link to='/new-story'>Write</Link>
 					</div>
 					<NotificationIcon className='nav__right--notification-icon' />
-					<div onClick={() => {setShowDropdown(!showDropdown)}} className='nav__right--user-image'>
-						<img src={placeholderImage} alt='User' />
-						{
-							showDropdown ?
-							<NavDropdown /> :
-							null
-						}
-					</div>
+					<NavMenu />
 				</div>
 			</div>
 			<hr className='nav-line' />

@@ -1,0 +1,12 @@
+.write-editor {
+	margin: 50px auto 0;
+	max-width: 700px;
+}
+
+.write-editor__title-input {
+	width: 100%;
+	font-size: 45px;
+	border: none;
+	outline: none;
+	resize: none;
+}
