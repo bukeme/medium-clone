@@ -4,6 +4,7 @@ import Home from './pages/home/home.component';
 import BlogPost from './pages/blog-post/blog-post.component';
 import Search from './pages/search/search.component';
 import Write from './pages/write/write.component';
+import ExploreTopics from './pages/explore-topics/explore-topics.component';
 import './App.css';
 
 const NavRoutes = () => {
@@ -14,6 +15,7 @@ const NavRoutes = () => {
           <Route path='/' element={<Home />} />
           <Route path='/:username/:postSlug' element={<BlogPost />} />
           <Route path='/search/*' element={<Search />} />
+          <Route path='/explore-topics' element={<ExploreTopics />} />
         </Routes>
     </>
   );

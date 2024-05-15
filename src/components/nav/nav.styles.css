@@ -19,9 +19,9 @@
 	justify-content: center;
 }
 
-.nav__left input {
+.nav__left--input input {
 	padding: 10px 20px 10px 45px;
-	width: 230px;
+	width: 100%;
 	border-radius: 30px;
 	border: none;
 	outline: none;
@@ -33,6 +33,7 @@
 .nav__left--input {
 	position: relative;
 	margin-left: 20px;
+	width: 230px;
 }
 
 .nav__left--input__search-icon {

@@ -1,0 +1,23 @@
+.explore-topics-page {
+	padding: 20px 40px;
+}
+
+.explore-topics-page__title {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.explore-topics-page__input {
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 20px;
+}
+
+.explore-topics-page__input input {
+	padding: 20px 40px 20px 90px;
+}
+
+.explore-topics-page__search-icon {
+	left: 30px;
+}
