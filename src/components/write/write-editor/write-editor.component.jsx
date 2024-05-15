@@ -1,10 +1,15 @@
-import {useRef} from 'react';
+import {useRef, useState} from 'react';
 import { Editor } from '@tinymce/tinymce-react';
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import './write-editor.styles.css';
+// import {editorConfiguration} from './editor-config.js';
 
 
 
 const WriteEditor = () => {
+	const [story, setStory] = useState('');
+	
 	const editorRef = useRef(null);
 	const log = () => {
 		if (editorRef.current) {
@@ -37,7 +42,15 @@ const WriteEditor = () => {
 			          content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
 			        }}
 			      />
-			     <button onClick={log}>Log editor content</button>
+			     {/*<button onClick={log}>Log editor content</button>*/}
+				{/*<CKEditor
+                    editor={ ClassicEditor }
+                    data={story}
+                    config={editorConfiguration}
+                    onChange={ ( event, editor ) => {
+                        setStory(editor.getData());
+                    } }
+                />*/}
 			</div>
 		</div>
 	);
