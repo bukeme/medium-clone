@@ -45,6 +45,10 @@
 	font-size: 14px;
 }
 
+.explore-topics-page__topic:hover {
+	text-decoration: underline;
+}
+
 .explore-topics-page__see-more-container {
 	text-align: center;
 }
