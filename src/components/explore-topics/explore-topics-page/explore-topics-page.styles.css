@@ -21,3 +21,30 @@
 .explore-topics-page__search-icon {
 	left: 30px;
 }
+
+.explore-topics-page__horizontal-line {
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, .05);
+	margin: 50px 0;
+}
+
+.explore-topics-page__all-topics-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.explore-topics-page__topics-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.explore-topics-page__topic {
+	margin: 0 20px 30px 0;
+	font-size: 14px;
+}
+
+.explore-topics-page__see-more-container {
+	text-align: center;
+}
