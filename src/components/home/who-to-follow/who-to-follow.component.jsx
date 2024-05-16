@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import './who-to-follow.styles.css';
 
 
@@ -37,7 +38,7 @@ const WhoToFollow = () => {
 					))
 				}
 			</div>
-			<p className='who-to-follow__see-more recommended-topics__see-more'>See more suggestions</p>
+			<Link to='/me/following' className='who-to-follow__see-more recommended-topics__see-more'>See more suggestions</Link>
 		</div>
 	);
 }

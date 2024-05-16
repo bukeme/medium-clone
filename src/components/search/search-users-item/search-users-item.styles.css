@@ -3,6 +3,10 @@
 	align-items: center;
 }
 
+.search-users-item.other-pages {
+	align-items: flex-start;
+}
+
 .search-users-item__img {
 	width: 50px;
 	height: 50px;
@@ -11,7 +15,7 @@
 }
 
 .search-users-item__user {
-	margin: 0 auto 0 40px;
+	margin: 0 auto 0 30px;
 	width: 70%;
 }
 
@@ -27,4 +31,17 @@
 	overflow: hidden !important;
 	text-overflow: ellipsis;
 	-webkit-line-clamp: 2;
+}
+
+.search-users-item__user--name.other-pages {
+	font-size: 16px;
+}
+
+.search-users-item__user--overview.other-pages {
+	font-size: 13px;
+}
+
+.search-users-item__follow-btn.other-pages button {
+	font-size: 13px;
+	padding: 6px 12px;
 }

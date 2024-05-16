@@ -2,6 +2,12 @@ import './blog-post-header-dropdown.styles.css';
 
 
 
+export const FollowBtn = ({action, children}) => {
+	return (
+		<button className='blog-post-header-dropdown__follow--follow-btn'>{children}</button>
+	);
+}
+
 const BlogPostHeaderDropdown = () => {
 	return (
 		<div className='blog-post-header-dropdown'>
@@ -12,7 +18,7 @@ const BlogPostHeaderDropdown = () => {
 			<p className='blog-post-header-dropdown__text'>Coding in python one line at a time</p>
 			<div className='blog-post-header-dropdown__follow'>
 				<span className='blog-post-header-dropdown__follow--followers-count'>370 followers</span>
-				<button className='blog-post-header-dropdown__follow--follow-btn'>Follow</button>
+				<FollowBtn>Follow</FollowBtn>
 			</div>
 		</div>
 	);

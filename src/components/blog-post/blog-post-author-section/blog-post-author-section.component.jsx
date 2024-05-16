@@ -1,7 +1,14 @@
 import PostProfileImage from '../post-profile-image/post-profile-image.component';
 import PostsGrid from '../posts-grid/posts-grid.component';
+import {FollowBtn} from '../blog-post-header-dropdown/blog-post-header-dropdown.component';
 import './blog-post-author-section.styles.css';
 
+
+export const AuthorPostFollowBtn =({action, children}) => (
+	<div className='blog-post-author-section__author-text--btn'>
+		<FollowBtn action={action}>{children}</FollowBtn>
+	</div>
+);
 
 
 const BlogPostAuthorSection = () => {
@@ -15,7 +22,7 @@ const BlogPostAuthorSection = () => {
 						<span>370 followers</span>
 						<p>Coding in Python, one line at a time</p>
 					</div>
-					<button className='blog-post-author-section__author-text--btn blog-post-header-dropdown__follow--follow-btn'>Follow</button>
+					<AuthorPostFollowBtn>Follow</AuthorPostFollowBtn>
 				</div>
 				<div className='blog-post-author-section__author-posts'>
 					<h4 className='blog-post-author-section__author-posts--header'>More from Gajanan Rajput</h4>

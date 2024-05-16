@@ -6,28 +6,3 @@
 .search-header__title span {
 	color: var(--black);
 }
-
-.search-header__nav {
-	margin: 20px 0 10px;
-	display: flex;
-	border-bottom: 1px solid rgba(0, 0, 0, .05);
-}
-
-.search-header__nav--item {
-	padding: 12px 0;
-	margin-right: 40px;
-	font-size: 15px;
-}
-
-.search-header__nav--item.active {
-	border-bottom: 1px solid var(--dark-black);
-	color: var(--dark-black);
-}
-
-.search-header__nav--item span a {
-	color: var(--black);
-}
-
-.search-header__nav--item span a:hover {
-	color: var(--dark-black);
-}

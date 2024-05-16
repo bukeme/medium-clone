@@ -1,0 +1,11 @@
+.refine-recommendations-following__writers-count {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.refine-recommendations-following__writer {
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+	margin-bottom: 20px;
+}
