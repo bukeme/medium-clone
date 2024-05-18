@@ -1,0 +1,29 @@
+.refine-recommendations-reading-history__history-item {
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.refine-recommendations-reading-history__clear-history {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, .03);
+	color: var(--dark-black);
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+.refine-recommendations-reading-history__clear-history button {
+	outline: none;
+	border: none;
+	background-color: var(--red);
+	padding: 5px 10px;
+	border-radius: 20px;
+	color: white;
+}
+
+.refine-recommendations-reading-history__clear-history button:hover {
+	background-color: var(--dark-red);
+}

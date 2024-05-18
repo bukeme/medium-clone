@@ -4,6 +4,8 @@
   --green: #1A8917;
   --dark-green: rgb(21, 109, 18);
   --gray: #F9F9F9;
+  --red: rgb(201, 74, 74);
+  --dark-red: rgb(182, 54, 54);
 }
 
 * {

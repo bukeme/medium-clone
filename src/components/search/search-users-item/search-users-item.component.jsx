@@ -1,18 +1,36 @@
 import {AuthorPostFollowBtn} from '../../blog-post/blog-post-author-section/blog-post-author-section.component';
+import TopicIcon from '../../../assets/topic-icon.svg?react';
 import './search-users-item.styles.css';
 
 
 
-const SearchUsersItem = ({otherPages}) => {
+const SearchUsersItem = ({item, otherPages}) => {
 	return (
 		<div className={`search-users-item ${otherPages ? 'other-pages' : ''}`}>
-			<img className='search-users-item__img' alt='User' src='https://miro.medium.com/v2/resize:fill:88:88/1*7BILKaMoDk90qDxKDYKP3w@2x.jpeg' />
+			{
+				item.img ?
+				<img className='search-users-item__img' alt='User' src={item.img} /> :
+				<div className='search-users-item__img-icon'>
+					<TopicIcon />
+				</div>
+			}
 			<div className='search-users-item__user'>
-				<h5 className={`search-users-item__user--name ${otherPages ? 'other-pages' : ''}`}>Gajanan Rajput</h5>
-				<p className={`search-users-item__user--overview ${otherPages ? 'other-pages' : ''}`}>Lorem ipsum felis magna neque quam curabitur ullamcorper, eleifend aliquam cras fringilla mattis torquent, adipiscing semper etiam fringilla habitant metus.</p>
+				<h5 className={`search-users-item__user--name ${otherPages ? 'other-pages' : ''}`}>{item.name}</h5>
+				{
+					item.text ?
+					<div className={`search-users-item__user--overview ${otherPages ? 'other-pages' : ''}`}>
+						{item.text}
+					</div> :
+					<div className={`search-users-item__user--overview ${otherPages ? 'other-pages' : ''}`}>
+						<span className='stories-count'>{item.storiesCount} Stories</span>
+						<span className='stories-dot' />
+						<span className='writes-count'>{item.writersCount} Writers</span>
+					</div>
+				}
+				
 			</div>
 			<span className={`search-users-item__follow-btn ${otherPages ? 'other-pages' : ''}`}>
-				<AuthorPostFollowBtn>Following</AuthorPostFollowBtn>
+				<AuthorPostFollowBtn>Follow</AuthorPostFollowBtn>
 			</span>
 		</div>
 	);

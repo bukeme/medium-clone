@@ -1,11 +1,23 @@
-.refine-recommendations-following__writers-count {
+.refine-recommendations-following__writers-count,
+.refine-recommendations-following__topics-count {
 	font-size: 18px;
 	font-weight: 500;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .refine-recommendations-following__writer {
-	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.refine-recommendations-following__section {
 	border-bottom: 1px solid rgba(0, 0, 0, .05);
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+.refine-recommendations-following__topics-see-all {
+	color: var(--green);
+	font-size: 14px;
+	cursor: pointer;
+	margin-bottom: 30px;
+	display: inline-block;
 }

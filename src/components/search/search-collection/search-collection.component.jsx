@@ -8,7 +8,12 @@ import './search-collection.styles.css';
 
 const SearchCollection = () => {
 	const {pathname} = useLocation();
-	let component = pathname == '/search/posts' ? <SearchItem /> : <SearchUsersItem />;
+	const item = {
+		img: 'https://miro.medium.com/v2/resize:fill:88:88/1*7BILKaMoDk90qDxKDYKP3w@2x.jpeg',
+		name: 'Gajanan Rajput',
+		text: 'Lorem ipsum felis magna neque quam curabitur ullamcorper, eleifend aliquam cras fringilla mattis torquent, adipiscing semper etiam fringilla habitant metus.'
+	}
+	let component = pathname == '/search/posts' ? <SearchItem /> : <SearchUsersItem item={item} />;
 	const elements = [];
 	for (let i=0; i<5; i++) {
 		elements.push(
