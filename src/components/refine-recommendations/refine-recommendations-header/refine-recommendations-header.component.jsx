@@ -13,6 +13,10 @@ const RefineRecommendationsHeader = () => {
 			path: '/me/readinghistory',
 			text: 'Reading History'
 		},
+		{
+			path: '/me/following/suggestions',
+			text: 'Suggestions'
+		},
 	]
 	return (
 		<div className='refine-recommendations-header'>

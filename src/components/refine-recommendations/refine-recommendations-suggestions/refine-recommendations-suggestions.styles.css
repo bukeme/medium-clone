@@ -1,0 +1,37 @@
+.refine-recommendations-suggestions__section--title {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.refine-recommendations-suggestions__section--item {
+	margin-bottom: 30px;
+}
+
+.refine-recommendations-suggestions__section {
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+	margin-bottom: 40px;
+}
+
+.refine-recommendations-suggestions__explore-topics {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.refine-recommendations-suggestions__explore-topics--icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, .03);
+	color: var(--black);
+}
+
+.refine-recommendations-suggestions__explore-topics--text {
+	margin: 0 auto 0 30px;
+	color: var(--dark-black);
+	font-size: 18px;
+}

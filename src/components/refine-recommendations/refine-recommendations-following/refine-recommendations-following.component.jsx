@@ -3,6 +3,8 @@ import './refine-recommendations-following.styles.css';
 
 
 
+export const SeeMore = ({children}) => <span className='refine-recommendations-following__topics-see-all'>{children}</span>;
+
 const RefineRecommendationsFollowing = () => {
 	const item1 = {
 		img: 'https://miro.medium.com/v2/resize:fill:88:88/1*7BILKaMoDk90qDxKDYKP3w@2x.jpeg',
@@ -44,7 +46,7 @@ const RefineRecommendationsFollowing = () => {
 				<div className='refine-recommendations-following__topics-container'>
 					{secondElements}
 				</div>
-				<span className='refine-recommendations-following__topics-see-all'>See all(76)</span>
+				<SeeMore>See all(76)</SeeMore>
 			</div>
 		</div>
 	);
