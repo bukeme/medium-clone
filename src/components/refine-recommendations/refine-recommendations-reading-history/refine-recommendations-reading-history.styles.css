@@ -1,9 +1,3 @@
-.refine-recommendations-reading-history__history-item {
-	padding-bottom: 30px;
-	margin-bottom: 40px;
-	border-bottom: 1px solid rgba(0, 0, 0, .05);
-}
-
 .refine-recommendations-reading-history__clear-history {
 	display: flex;
 	align-items: center;

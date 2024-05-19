@@ -1,0 +1,9 @@
+.posts-collection__item {
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.search-collection {
+	position: relative;
+}
