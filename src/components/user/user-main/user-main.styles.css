@@ -1,0 +1,6 @@
+.user-main {
+	width: 66.66%;
+	border-right: 2px solid rgba(0, 0, 0, .05);
+	padding: 0 60px 20px;
+	min-height: 100vh;
+}
