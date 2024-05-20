@@ -1,0 +1,22 @@
+.user-about {
+	padding: 0 20px;
+	font-size: 14px;
+}
+
+.user-about__follow {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.user-about__follow > * {
+	margin-right: 10px;
+	color: var(--green);
+}
+
+.user-about__dot {
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	background-color: var(--green);
+}

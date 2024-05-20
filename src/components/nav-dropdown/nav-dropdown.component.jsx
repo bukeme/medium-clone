@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import ProfileIcon from '../../assets/profile.svg?react';
 import LibraryIcon from '../../assets/library.svg?react';
 import StoryIcon from '../../assets/story.svg?react';
@@ -17,10 +18,10 @@ const NavDropdown = () => {
 				</div>
 			</div>
 			<div className='nav-dropdown__items-container'>
-				<div className='nav-dropdown__items-container--item'>
+				<Link to='/@simeon.emanuilov' className='nav-dropdown__items-container--item'>
 					<ProfileIcon className='nav-dropdown__items-container--item__icon' />
 					<span>Profile</span>
-				</div>
+				</Link>
 				<div className='nav-dropdown__items-container--item'>
 					<LibraryIcon className='nav-dropdown__items-container--item__icon' />
 					<span>Library</span>

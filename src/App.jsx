@@ -15,8 +15,8 @@ const NavRoutes = () => {
       <Nav />
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route exact path='/*' element={<User />} />
-          <Route path='/:username/:postSlug' element={<BlogPost />} />
+          <Route path='/:username/post/:postSlug' element={<BlogPost />} />
+          <Route path='/:username/*' element={<User />} />
           <Route path='/search/*' element={<Search />} />
           <Route path='/explore-topics' element={<ExploreTopics />} />
           <Route path='/me/*' element={<RefineRecommendations />} />

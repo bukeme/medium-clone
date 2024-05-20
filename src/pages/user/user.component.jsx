@@ -9,7 +9,7 @@ const User = () => {
 	return (
 		<div className='user'>
 			<Routes>
-				<Route path=':username' element={<UserMain />} />
+				<Route exact path='*' element={<UserMain />} />
 			</Routes>
 			
 			<UserAside />
