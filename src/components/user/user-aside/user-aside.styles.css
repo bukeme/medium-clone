@@ -1,4 +1,55 @@
 .user-aside {
 	width: 33.33%;
-	padding: 0 60px 20px 40px;
+	padding: 40px 60px 20px 40px;
+}
+
+.user-aside a,
+.user-aside p {
+	color: var(--black);
+}
+
+.user-aside__profile-img a {
+	display: inline-block;
+}
+
+.user-aside__profile-img img {
+	width: 90px;
+	height: 90px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.user-aside__name a {
+	font-weight: 600;
+	font-size: 16px;
+	color: var(--dark-black);
+}
+
+.user-aside__overview {
+	font-size: 13px;
+	margin: 10px 0 20px;
+}
+
+.user-aside__following-title {
+	font-weight: 600;
+	font-size: 16px;
+	margin: 40px 0 20px;
+}
+
+.user-aside__following {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.user-aside__following--name {
+	margin-left: 12px;
+}
+
+.user-aside__following--name span {
+	color: var(--black);
+}
+
+.user-aside__following--see-all {
+	font-size: 13px;
 }
