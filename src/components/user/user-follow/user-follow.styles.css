@@ -4,3 +4,25 @@
 	padding: 40px 60px 20px;
 	min-height: 100vh;
 }
+
+.user-follow__breadcrumb {
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+}
+
+.user-follow__breadcrumb--item {
+	margin-right: 10px;
+	color: var(--black);
+/*	fill: var(--black);*/
+}
+
+.user-follow__breadcrumb--item:last-child {
+	color: var(--dark-black);
+}
+
+.user-follow__follow-count {
+	margin: 10px 0 40px;
+	font-size: 38px;
+	font-weight: 600;
+}
