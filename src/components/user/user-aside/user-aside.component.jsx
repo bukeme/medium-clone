@@ -25,7 +25,7 @@ const UserAside = () => {
 				<a href='#'>Simeon Emanuilov</a>
 			</h3>
 			<p className='user-aside__followers'>
-				<a href='#'>193 Followers</a>
+				<Link to='/@simeon.emanuilov/followers'>204 Followers</Link>
 			</p>
 			<p className='user-aside__overview'>Senior Backend Engineer in Machine Learning and Big Data space | Sharing knowledge for Python & Go programming, Software architecture, Machine Learning & AI</p>
 			<AuthorPostFollowBtn>Follow</AuthorPostFollowBtn>

@@ -1,9 +1,9 @@
 import UserFollow from '../user-follow/user-follow.component';
-import './user-following.styles.css';
+import './user-followers.styles.css';
 
 
 
-const UserFollowing = () => {
+const UserFollowers = () => {
 	const items = [];
 	for (let i=0; i<5; i++) {
 		items.push({
@@ -13,10 +13,10 @@ const UserFollowing = () => {
 		})
 	}
 	return (
-		<div className='user-following'>
-			<UserFollow items={items} title='Following' count={60} />
+		<div className='user-followers'>
+			<UserFollow items={items} title='Followers' count={204} />
 		</div>
 	);
 }
 
-export default UserFollowing;
+export default UserFollowers;
