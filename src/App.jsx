@@ -7,6 +7,7 @@ import Write from './pages/write/write.component';
 import ExploreTopics from './pages/explore-topics/explore-topics.component';
 import RefineRecommendations from './pages/refine-recommendations/refine-recommendations.component';
 import User from './pages/user/user.component';
+import Library from './pages/library/library.component';
 import './App.css';
 
 const NavRoutes = () => {
@@ -20,6 +21,7 @@ const NavRoutes = () => {
           <Route path='/search/*' element={<Search />} />
           <Route path='/explore-topics' element={<ExploreTopics />} />
           <Route path='/me/*' element={<RefineRecommendations />} />
+          <Route path='/me/lists/*' element={<Library />} />
         </Routes>
     </>
   );

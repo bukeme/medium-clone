@@ -22,10 +22,10 @@ const NavDropdown = () => {
 					<ProfileIcon className='nav-dropdown__items-container--item__icon' />
 					<span>Profile</span>
 				</Link>
-				<div className='nav-dropdown__items-container--item'>
+				<Link to='/me/lists' className='nav-dropdown__items-container--item'>
 					<LibraryIcon className='nav-dropdown__items-container--item__icon' />
 					<span>Library</span>
-				</div>
+				</Link>
 				<div className='nav-dropdown__items-container--item'>
 					<StoryIcon className='nav-dropdown__items-container--item__icon' />
 					<span>Stories</span>
