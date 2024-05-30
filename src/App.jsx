@@ -9,6 +9,7 @@ import RefineRecommendations from './pages/refine-recommendations/refine-recomme
 import User from './pages/user/user.component';
 import Library from './pages/library/library.component';
 import Settings from './pages/settings/settings.component';
+import HomeAnonymous from './pages/home-anonymous/home-anonymous.component';
 import './App.css';
 
 const NavRoutes = () => {
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route exact path='/*' element={<NavRoutes />} />
           <Route exact path='/new-story' element={<Write />} />
+          <Route path='/anonymous' element={<HomeAnonymous />} />
         </Routes>
       </BrowserRouter>
     </>

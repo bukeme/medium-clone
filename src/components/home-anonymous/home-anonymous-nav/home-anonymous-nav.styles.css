@@ -1,0 +1,32 @@
+.home-anonymous-nav {
+	padding: 22px 60px;
+	border-bottom: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.home-anonymous-nav__logo-icon {
+	width: 160px;
+}
+
+.home-anonymous-nav__right {
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+
+.home-anonymous-nav__right > * {
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.home-anonymous-nav__right--btn {
+	border: none;
+	outline: none;
+	color: white;
+	background-color: black;
+	padding: 8px 15px;
+	border-radius: 20px;
+}

@@ -1,0 +1,34 @@
+.home-anonymous-main {
+	height: calc(100vh - 81px);
+	margin: 0 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	color: black;
+	width: 600px;
+}
+
+.home-anonymous-main h1 {
+	font-size: 90px;
+	font-weight: 600;
+	color: black;
+}
+
+.home-anonymous-main p {
+	font-size: 23px;
+	margin: 5px 0 50px;
+}
+
+.home-anonymous-main button {
+	border: none;
+	outline: none;
+	color: white;
+	background-color: black;
+	padding: 8px 25px;
+	border-radius: 30px;
+	font-weight: 500;
+	font-size: 18px;
+	width: 220px;
+	cursor: pointer;
+}
