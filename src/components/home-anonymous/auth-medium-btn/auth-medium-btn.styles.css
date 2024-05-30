@@ -1,0 +1,23 @@
+.auth-medium-btn {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.auth-medium-btn__btn {
+	width: 100%;
+	outline: none;
+	border: 1px solid black;
+	padding: 8px 15px;
+	border-radius: 30px;
+	background-color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.auth-medium-btn__icon {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10px;
+	height: 24px;
+}

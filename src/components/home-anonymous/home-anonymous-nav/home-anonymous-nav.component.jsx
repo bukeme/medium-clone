@@ -1,16 +1,18 @@
-import {useState} from 'react';
 import SignIn from '../sign-in/sign-in.component';
+import SignUp from '../sign-up/sign-up.component';
 import LogoMedium from '../../../assets/logo-medium.svg?react';
 import './home-anonymous-nav.styles.css';
 
 
 
-const HomeAnonymousNav = () => {
-	const [authPopUp, setAuthPopUp] = useState(0);
+const HomeAnonymousNav = ({authPopUp, setAuthPopUp}) => {
 	let popUpComponent;
 	switch (authPopUp) {
 		case 1:
 			popUpComponent = <SignIn setAuthPopUp={setAuthPopUp} />
+			break;
+		case 2:
+			popUpComponent = <SignUp setAuthPopUp={setAuthPopUp} />
 			break;
 		default:
 			popUpComponent = null;
