@@ -36,9 +36,9 @@ const NavDropdown = () => {
 				</div>
 			</div>
 			<div className='nav-dropdown__items-container'>
-				<div className='nav-dropdown__items-container--item'>
+				<Link to='/me/settings' className='nav-dropdown__items-container--item'>
 					<span>Settings</span>
-				</div>
+				</Link>
 			</div>
 			<div className='nav-dropdown__items-container'>
 				<div className='nav-dropdown__items-container--item'>

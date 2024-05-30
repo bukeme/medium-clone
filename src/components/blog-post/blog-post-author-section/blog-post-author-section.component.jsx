@@ -4,9 +4,9 @@ import {FollowBtn} from '../blog-post-header-dropdown/blog-post-header-dropdown.
 import './blog-post-author-section.styles.css';
 
 
-export const AuthorPostFollowBtn =({action, children}) => (
+export const AuthorPostFollowBtn =(props) => (
 	<div className='blog-post-author-section__author-text--btn'>
-		<FollowBtn action={action}>{children}</FollowBtn>
+		<FollowBtn {...props} />
 	</div>
 );
 

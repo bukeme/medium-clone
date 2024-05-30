@@ -60,8 +60,20 @@
 	cursor: pointer;
 }
 
+.blog-post-header-dropdown__follow--follow-btn.outline {
+	background-color: white;
+	color: var(--green);
+	border: 1px solid var(--green);
+}
+
 .blog-post-header-dropdown__follow--follow-btn:hover {
 	background-color: var(--dark-green);
+}
+
+.blog-post-header-dropdown__follow--follow-btn.outline:hover {
+	color: var(--dark-green);
+	background-color: white;
+	border-color: var(--dark-green);
 }
 
 .blog-post-header-dropdown::after {

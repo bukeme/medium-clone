@@ -2,9 +2,13 @@ import './blog-post-header-dropdown.styles.css';
 
 
 
-export const FollowBtn = ({action, children}) => {
+export const FollowBtn = ({action, outline, children}) => {
+	const handleClick = (event) => {
+		event.preventDefault();
+		if (action) action();
+	}
 	return (
-		<button className='blog-post-header-dropdown__follow--follow-btn'>{children}</button>
+		<button onClick={handleClick} className={`blog-post-header-dropdown__follow--follow-btn ${outline ? 'outline' : ''}`}>{children}</button>
 	);
 }
 

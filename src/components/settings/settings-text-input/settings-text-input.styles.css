@@ -1,0 +1,29 @@
+.settings-text-input {
+	margin-bottom: 30px;
+}
+
+.settings-text-input__label {
+	color: var(--dark-black);
+	margin-bottom: 7px;
+}
+
+.settings-text-input__input {
+	width: 100%;
+	padding: 10px 15px;
+	background-color: rgba(0, 0, 0, .03);
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+
+.settings-text-input__helper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.settings-text-input__helper--limit__count {
+	color: var(--dark-black);
+}
