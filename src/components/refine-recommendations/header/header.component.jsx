@@ -1,5 +1,5 @@
 import SearchNav from '../../search/search-nav/search-nav.component';
-import './refine-recommendations-header.styles.css';
+import './header.styles.css';
 
 
 

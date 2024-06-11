@@ -1,6 +1,6 @@
 import SearchItem from '../../search/search-item/search-item.component';
 import PostsCollection from '../../search/posts-collection/posts-collection.component';
-import './refine-recommendations-reading-history.styles.css';
+import './reading-history.styles.css';
 
 
 

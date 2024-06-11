@@ -1,6 +1,6 @@
 import SearchUsersItem from '../../search/search-users-item/search-users-item.component';
 import UsersCollection from '../../search/users-collection/users-collection.component';
-import './refine-recommendations-following.styles.css';
+import './following.styles.css';
 
 
 

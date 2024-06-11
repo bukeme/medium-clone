@@ -1,8 +1,8 @@
 import {Routes, Route} from 'react-router-dom';
-import RefineRecommendationsHeader from '../../components/refine-recommendations/refine-recommendations-header/refine-recommendations-header.component';
-import RefineRecommendationsFollowing from '../../components/refine-recommendations/refine-recommendations-following/refine-recommendations-following.component';
-import RefineRecommendationsReadingHistory from '../../components/refine-recommendations/refine-recommendations-reading-history/refine-recommendations-reading-history.component';
-import RefineRecommendationsSuggetions from '../../components/refine-recommendations/refine-recommendations-suggestions/refine-recommendations-suggestions.component';
+import RefineRecommendationsHeader from '../../components/refine-recommendations/header/header.component';
+import RefineRecommendationsFollowing from '../../components/refine-recommendations/following/following.component';
+import RefineRecommendationsReadingHistory from '../../components/refine-recommendations/reading-history/reading-history.component';
+import RefineRecommendationsSuggetions from '../../components/refine-recommendations/suggestions/suggestions.component';
 import './refine-recommendations.styles.css';
 
 

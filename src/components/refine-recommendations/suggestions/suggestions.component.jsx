@@ -1,10 +1,10 @@
 import {Link} from 'react-router-dom';
 import SearchUsersItem from '../../search/search-users-item/search-users-item.component';
 import UsersCollection from '../../search/users-collection/users-collection.component';
-import {SeeMore} from '../refine-recommendations-following/refine-recommendations-following.component';
+import {SeeMore} from '../following/following.component';
 import ExploreIcon from '../../../assets/explore-icon.svg?react';
 import SlantArrowIcon from '../../../assets/slant-arrow-icon.svg?react';
-import './refine-recommendations-suggestions.styles.css';
+import './suggestions.styles.css';
 
 
 
