@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import Nav from './components/nav/nav.component';
 import Home from './pages/home/home.component';
 import BlogPost from './pages/blog-post/blog-post.component';
@@ -34,13 +34,13 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path='/*' element={<NavRoutes />} />
           <Route exact path='/new-story' element={<Write />} />
           <Route path='/anonymous' element={<HomeAnonymous />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
