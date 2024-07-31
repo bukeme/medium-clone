@@ -1,0 +1,45 @@
+.sign-in-sign-up {
+	padding: 20px 40px;
+}
+
+.sign-in-sign-up__logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-in-sign-up__logo-container a {
+	display: flex;
+}
+
+.sign-in-sign-up__logo {
+	width: 45px;
+}
+
+.sign-in-sign-up__logo-container a h3 {
+	margin-left: 10px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.sign-in-sign-up__title {
+	font-size: 28px;
+	font-weight: 400;
+	margin: 80px 0 30px;
+	text-align: center;
+}
+
+.sign-in-sign-up__form {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.sign-in-sign-up__form > * {
+	margin-bottom: 10px;
+}
+
+.sign-in-sign-up__form-submit {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}

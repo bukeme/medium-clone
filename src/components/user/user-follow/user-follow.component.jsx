@@ -9,7 +9,7 @@ const UserFollow = ({items, count, title}) => {
 	return (
 		<div className='user-follow'>
 			<div className='user-follow__breadcrumb'>
-				<Link to='/@simeon.emanuilov' className='user-follow__breadcrumb--item'>Simeon Emanuilov</Link>
+				<Link to='/medium-clone/@simeon.emanuilov' className='user-follow__breadcrumb--item'>Simeon Emanuilov</Link>
 				<ArrowRight className='user-follow__breadcrumb--item' />
 				<span className='user-follow__breadcrumb--item'>{title}</span>
 			</div>

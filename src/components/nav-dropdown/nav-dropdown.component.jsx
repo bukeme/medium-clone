@@ -18,11 +18,11 @@ const NavDropdown = () => {
 				</div>
 			</div>
 			<div className='nav-dropdown__items-container'>
-				<Link to='/@simeon.emanuilov' className='nav-dropdown__items-container--item'>
+				<Link to='/medium-clone/@simeon.emanuilov' className='nav-dropdown__items-container--item'>
 					<ProfileIcon className='nav-dropdown__items-container--item__icon' />
 					<span>Profile</span>
 				</Link>
-				<Link to='/me/lists' className='nav-dropdown__items-container--item'>
+				<Link to='/medium-clone/me/lists' className='nav-dropdown__items-container--item'>
 					<LibraryIcon className='nav-dropdown__items-container--item__icon' />
 					<span>Library</span>
 				</Link>
@@ -36,7 +36,7 @@ const NavDropdown = () => {
 				</div>
 			</div>
 			<div className='nav-dropdown__items-container'>
-				<Link to='/me/settings' className='nav-dropdown__items-container--item'>
+				<Link to='/medium-clone/me/settings' className='nav-dropdown__items-container--item'>
 					<span>Settings</span>
 				</Link>
 			</div>

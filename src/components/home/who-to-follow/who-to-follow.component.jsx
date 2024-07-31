@@ -38,7 +38,7 @@ const WhoToFollow = () => {
 					))
 				}
 			</div>
-			<Link to='/me/following/suggestions' className='who-to-follow__see-more recommended-topics__see-more'>See more suggestions</Link>
+			<Link to='/medium-clone/me/following/suggestions' className='who-to-follow__see-more recommended-topics__see-more'>See more suggestions</Link>
 		</div>
 	);
 }

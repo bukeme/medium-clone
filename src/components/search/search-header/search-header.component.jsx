@@ -8,15 +8,15 @@ const SearchHeader = () => {
 	const {pathname} = useLocation();
 	const links = [
 		{
-			path: '/search/posts',
+			path: '/medium-clone/search/posts',
 			text: 'Stories'
 		},
 		{
-			path: '/search/users',
+			path: '/medium-clone/search/users',
 			text: 'People'
 		},
 		{
-			path: '/search/tags',
+			path: '/medium-clone/search/tags',
 			text: 'Topics'
 		},
 	]

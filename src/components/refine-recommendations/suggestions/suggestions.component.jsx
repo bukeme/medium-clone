@@ -37,7 +37,7 @@ const RefineRecommendationsSuggetions = () => {
 			<div className='refine-recommendations-suggestions__section'>
 				<h3 className='refine-recommendations-suggestions__section--title'>Topics to follow</h3>
 				<div className='refine-recommendations-suggestions__section--people-container'>
-					<Link to='/explore-topics' className='refine-recommendations-suggestions__explore-topics'>
+					<Link to='/medium-clone/explore-topics' className='refine-recommendations-suggestions__explore-topics'>
 						<div className='refine-recommendations-suggestions__explore-topics--icon'>
 							<ExploreIcon />
 						</div>

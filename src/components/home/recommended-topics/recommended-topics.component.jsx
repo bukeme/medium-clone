@@ -14,7 +14,7 @@ const RecommendedTopics = () => {
 		<div className='recommended-topics'>
 			<h4 className='recommended-topics__title'>Recommended topics</h4>
 			<Topics topics={topics} />
-			<Link to='/explore-topics' className='recommended-topics__see-more'>See more topics</Link>
+			<Link to='/medium-clone/explore-topics' className='recommended-topics__see-more'>See more topics</Link>
 		</div>
 	);
 }

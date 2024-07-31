@@ -1,4 +1,4 @@
-import {HashRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route, BrowserRouter} from 'react-router-dom';
 import Nav from './components/nav/nav.component';
 import Home from './pages/home/home.component';
 import BlogPost from './pages/blog-post/blog-post.component';
@@ -10,6 +10,7 @@ import User from './pages/user/user.component';
 import Library from './pages/library/library.component';
 import Settings from './pages/settings/settings.component';
 import HomeAnonymous from './pages/home-anonymous/home-anonymous.component';
+import SignInSignUp from './components/home-anonymous/sign-in-sign-up/sign-in-sign-up.component';
 import './App.css';
 
 const NavRoutes = () => {
@@ -34,13 +35,15 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
-          <Route exact path='/*' element={<NavRoutes />} />
-          <Route exact path='/new-story' element={<Write />} />
-          <Route path='/anonymous' element={<HomeAnonymous />} />
+          <Route exact path='/medium-clone/*' element={<NavRoutes />} />
+          <Route exact path='/medium-clone/new-story' element={<Write />} />
+          <Route path='/medium-clone/anonymous' element={<HomeAnonymous />} />
+          <Route path='/medium-clone/sign-in' element={<SignInSignUp />} />
+          <Route path='/medium-clone/sign-up' element={<SignInSignUp />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }

@@ -19,7 +19,7 @@ const Nav = () => {
 		<>
 			<div className='nav'>
 				<div className='nav__left'>
-					<Link to='/'>
+					<Link to='/medium-clone/'>
 						<Logo className='logo' />
 					</Link>
 					<form onSubmit={handleSubmit} className='nav__left--input'>
@@ -31,7 +31,7 @@ const Nav = () => {
 					<SearchIcon className='nav__right--search-icon mobile' />
 					<div className='nav__right--write mobile'>
 						<WriteIcon className='write-icon' />
-						<Link to='/new-story'>Write</Link>
+						<Link to='/medium-clone/new-story'>Write</Link>
 					</div>
 					<NotificationIcon className='nav__right--notification-icon' />
 					<NavMenu />

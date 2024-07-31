@@ -11,7 +11,7 @@ const WriteHeader = () => {
 	return (
 		<div className='write-header'>
 			<div className='write-header__left'>
-				<Link to='/'>
+				<Link to='/medium-clone/'>
 					<Logo className='write-header__left--logo-icon' />
 				</Link>
 				<span className='write-header__left--draft-text'>Draft</span>

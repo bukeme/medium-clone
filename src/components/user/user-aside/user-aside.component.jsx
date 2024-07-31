@@ -25,7 +25,7 @@ const UserAside = () => {
 				<a href='#'>Simeon Emanuilov</a>
 			</h3>
 			<p className='user-aside__followers'>
-				<Link to='/@simeon.emanuilov/followers'>204 Followers</Link>
+				<Link to='/medium-clone/@simeon.emanuilov/followers'>204 Followers</Link>
 			</p>
 			<p className='user-aside__overview'>Senior Backend Engineer in Machine Learning and Big Data space | Sharing knowledge for Python & Go programming, Software architecture, Machine Learning & AI</p>
 			<AuthorPostFollowBtn>Follow</AuthorPostFollowBtn>
@@ -42,7 +42,7 @@ const UserAside = () => {
 					))
 				}
 			</div>
-			<Link to='/@simeon.emanuilov/following' className='user-aside__following--see-all'>See all(60)</Link>
+			<Link to='/medium-clone/@simeon.emanuilov/following' className='user-aside__following--see-all'>See all(60)</Link>
 		</div>
 	);
 }
