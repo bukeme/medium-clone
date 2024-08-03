@@ -39,9 +39,9 @@ function App() {
         <Routes>
           <Route exact path='/medium-clone/*' element={<NavRoutes />} />
           <Route exact path='/medium-clone/new-story' element={<Write />} />
-          <Route path='/medium-clone/anonymous' element={<HomeAnonymous />} />
-          <Route path='/medium-clone/sign-in' element={<SignInSignUp />} />
-          <Route path='/medium-clone/sign-up' element={<SignInSignUp />} />
+          <Route exact path='/medium-clone/anonymous' element={<HomeAnonymous />} />
+          <Route exact path='/medium-clone/sign-in' element={<SignInSignUp />} />
+          <Route exact path='/medium-clone/sign-up' element={<SignInSignUp />} />
         </Routes>
       </BrowserRouter>
     </>

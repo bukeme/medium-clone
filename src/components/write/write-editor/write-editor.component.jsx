@@ -1,9 +1,10 @@
 import {useRef, useState} from 'react';
 import { Editor } from '@tinymce/tinymce-react';
-import { CKEditor } from '@ckeditor/ckeditor5-react';
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+// import { CKEditor } from '@ckeditor/ckeditor5-react';
+// import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+// import {ClassicEditor} from 'ckeditor5';
 import './write-editor.styles.css';
-// import {editorConfiguration} from './editor-config.js';
+import {editorConfiguration} from './editor-config.js';
 
 
 
@@ -23,6 +24,7 @@ const WriteEditor = () => {
 			</div>
 			<div className='write-editor__editor'>
 				<Editor
+					apiKey='3e3u4y2b5mds1dp66r7of86ldnprfx7muq5fkoy66siu8e84'
 			        onInit={(evt, editor) => editorRef.current = editor}
 			        textareaName='Tell your story...'
 			        initialValue=""
